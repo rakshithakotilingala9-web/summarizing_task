@@ -1568,4 +1568,4 @@ The page content is already provided - no need to ask for it again.`;
   
   });   // end of the code//
 
-})();
+})(); // end of the code //
