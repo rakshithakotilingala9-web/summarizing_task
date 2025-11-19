@@ -1566,6 +1566,6 @@ The page content is already provided - no need to ask for it again.`;
   bubble.addEventListener('click', openSidebar);
   chrome.runtime.onMessage.addListener((msg) => { if (msg?.type === 'AGUI_TOGGLE') toggleSidebar(); 
   
-  });
+  });   // end of the code//
 
 })();
