@@ -146,7 +146,7 @@
 
   let sidebar = null, historyEl, textarea, sendBtn, closeBtn, refreshBtn, summarizeBtn, headerSmall, statusList;
 
-  // ---------- Settings ----------
+  // ---------- Settings ---------- //
   async function loadPackagedConfig() {
     try {
       const url = chrome.runtime.getURL('config.json');
