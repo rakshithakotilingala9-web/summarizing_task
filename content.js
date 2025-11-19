@@ -24,7 +24,7 @@
     return uid;
   }
   const nowTime = () => new Date().toLocaleTimeString([], { hour12: false });
-
+   //--------- New Part ----------//
   // ---------- Thread & Transcript ----------
   function pageKey() { return normalizeUrl(); }
   function threadMapKey(agentId) { return `AGUI_THREAD_MAP::${agentId}::${pageKey()}`; } // value = threadId
