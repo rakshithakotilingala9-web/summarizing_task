@@ -375,7 +375,7 @@
       }
     }
   }
-
+   // --------- New part---------//
   // ---------- Processing Details UI ----------
   function createProcessingDetails(events) {
     if (!events || events.length === 0) return null;
