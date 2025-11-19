@@ -145,7 +145,7 @@
   shadow.appendChild(bubble);
 
   let sidebar = null, historyEl, textarea, sendBtn, closeBtn, refreshBtn, summarizeBtn, headerSmall, statusList;
-  //test the code from //
+
   // ---------- Settings ----------
   async function loadPackagedConfig() {
     try {
