@@ -86,7 +86,7 @@
   document.documentElement.appendChild(host);
   const shadow = host.attachShadow({ mode: 'open' });
 
-  // Fallback CSS (in case styles.css didn't load)
+  // -------- Fallback CSS (in case styles.css didn't load) ------------- //
   const fallbackStyle = document.createElement('style');
   fallbackStyle.textContent = `
     .vh-bubble { position:fixed; right:20px; bottom:20px; z-index:2147483647; width:48px; height:48px; border-radius:24px; display:grid; place-items:center; cursor:pointer; background:#111; color:#fff; font-size:20px; box-shadow:0 10px 30px rgba(0,0,0,.25); }
