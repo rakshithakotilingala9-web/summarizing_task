@@ -67,7 +67,7 @@
       }
     }
   }
-// test change for PR review bot
+
 
   function migrateTranscript(fromId, toId) {
     if (fromId === toId) return;
@@ -147,7 +147,7 @@
 
   let sidebar = null, historyEl, textarea, sendBtn, closeBtn, refreshBtn, summarizeBtn, headerSmall, statusList;
 
-  // ---------- Settings ----------
+  // ---------- Settings ----------  // test change for PR review bot
   async function loadPackagedConfig() {
     try {
       const url = chrome.runtime.getURL('config.json');
