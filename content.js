@@ -1218,7 +1218,7 @@ The page content is already provided - no need to ask for it again.`;
           addProcessingEvent('RETRY', `Network error detected, retrying... (${streamAttempt}/${maxStreamRetries})`, 'warn');
           continue;
         } else {
-
+             // ending part //
            // Show error in the existing assistant message
           // Show error with retry button beside the assistant bubble
           if (assistantDiv) {
