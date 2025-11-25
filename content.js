@@ -9,6 +9,7 @@
     try { const u = new URL(location.href); return `${u.origin}${u.pathname}`; }
     catch { return location.href; }
   }
+  // ---- add new texts ---- //
   async function getOrCreateUserId() {
     let syncOk = true; let syncData = {};
     try { syncData = await chrome.storage.sync.get(['VIBE_USER_ID']); } catch (_) { syncOk = false; }
