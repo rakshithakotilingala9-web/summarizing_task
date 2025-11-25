@@ -74,7 +74,7 @@
     if (arr.length) saveTranscript(toId, arr);
     try { localStorage.removeItem(transcriptKey(fromId)); } catch { }
   }
-
+  // ---- add new parts ------ //
   // ---------- Extension Info ----------
   function getExtensionName() {
     return chrome.runtime.getManifest().name || 'Extension';
