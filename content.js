@@ -2,7 +2,7 @@
   const ROOT_ID = 'vh-agui-root';
   if (document.getElementById(ROOT_ID)) return;
 
-  // ---------- Utilities ----------
+  // ---------- Utilities ---------- //
   const qs = (sel, root = document) => root.querySelector(sel);
   const tidy = (s = '') => s.replace(/\xA0/g, ' ').replace(/[ \t]+\n/g, '\n').trim();
   function normalizeUrl() {
