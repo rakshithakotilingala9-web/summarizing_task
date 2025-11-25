@@ -79,7 +79,7 @@
   function getExtensionName() {
     return chrome.runtime.getManifest().name || 'Extension';
   }
-
+ // ---- add some parts --- //
   // ---------- Shadow host ----------
   const host = document.createElement('div');
   host.id = ROOT_ID;
