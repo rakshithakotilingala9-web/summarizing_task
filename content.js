@@ -79,7 +79,7 @@
   function getExtensionName() {
     return chrome.runtime.getManifest().name || 'Extension';
   }
-
+ // ---- add some parts --- //
   // ---------- Shadow host ----------
   const host = document.createElement('div');
   host.id = ROOT_ID;
@@ -189,7 +189,7 @@
 
     return { base, endpoint, apiKey, agentId, fileId };
   }
-
+   // ------- add ------ //
   // ---------- Networking ----------
   async function* sseRead(res) {
     const reader = res.body.getReader();
