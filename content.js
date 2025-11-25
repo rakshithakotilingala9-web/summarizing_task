@@ -1477,7 +1477,7 @@ The page content is already provided - no need to ask for it again.`;
     historyEl.appendChild(div);
     historyEl.scrollTop = historyEl.scrollHeight;
 
-    
+    // adding parts here //
     // Store user message with empty processing details
     pushTranscript(transcriptId, 'user', text, currentProcessingDetails);
 
