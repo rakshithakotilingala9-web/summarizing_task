@@ -375,8 +375,8 @@
       }
     }
   }
-
-  // ---------- Processing Details UI ----------
+  // start //
+  // ---------- Processing Details UI ---------- //
   function createProcessingDetails(events) {
     if (!events || events.length === 0) return null;
     
