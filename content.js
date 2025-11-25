@@ -189,7 +189,7 @@
 
     return { base, endpoint, apiKey, agentId, fileId };
   }
-
+// ------ new text part is added ----- //
   // ---------- Networking ----------
   async function* sseRead(res) {
     const reader = res.body.getReader();
